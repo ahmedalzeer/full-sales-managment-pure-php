@@ -1,0 +1,88 @@
+/* Start Main Rulez */
+
+body {
+
+	background: gray;
+	-webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+	animation: mymove 5s infinite;
+	font-size: 16px;
+
+}
+@-webkit-keyframes mymove {
+	50% {background-color: #b1dfbb;}
+}
+
+@keyframes mymove {
+	50% {background-color: black;}
+}
+.login{
+	border: 2px solid white;
+	padding: 10px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+}
+
+h1 {
+	font-size: 55px;
+	margin: 50px 0;
+	font-weight: bold;
+	color: #666;
+}
+
+.input-container {
+	position: relative;
+}
+
+
+.nice-message {
+	padding: 10px;
+	background-color: #FFF;
+	margin: 10px 0;
+	border-left: 5px solid #080;
+}
+.form-control {
+	position: relative;
+}
+
+/* End Bootstrap Edits */
+
+/* Start Header */
+
+.upper-bar {
+	padding: 10px;
+	background-color: #FFF
+}
+
+.my-image {
+	width: 32px;
+	height: 32px;
+}
+
+/* End Header */
+
+/* Start Login Page */
+.login-page{
+
+}
+.login-page form,
+.the-errors {
+	/*max-width: 380px;*/
+	margin: auto;
+}
+
+.login-page form input {
+	margin-bottom: 10px;
+}
+
+
+.login-page h1 {
+	color: #C0C0C0;
+}
+
+.login-page h1 span {
+	cursor: pointer;
+}
+
+.login-page .signup {
+	display: none;
+}

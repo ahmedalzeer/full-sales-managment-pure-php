@@ -1,0 +1,23 @@
+.blue {color:#3490dc;}
+.indigo {color:#6574cd;}
+.purple {color:#9561e2;}
+.pink {color:#f66D9b;}
+.red {color:#e3342f;}
+.orange {color:#f6993f;}
+.yellow {color:#ffed4a;}
+.green {color:#38c172;}
+.teal {color:#4dc0b5;}
+.cyan {color:#6cb2eb;}
+
+.navbar {
+    background-color: white;
+    border-color: #8d3030;
+}
+
+#result{
+    color: #8d3030;
+    font-size: 10pt;
+    background-color: white;
+}
+#moveresult{cursor: pointer;}
+#buymoveresult{cursor: pointer;}
